@@ -5,7 +5,7 @@ This project tries to explore two things:
 <b>
 Data:
 WMT21 Bengali-Hindi CC aligned data
-<b>
+</b>
 Evaluation Metric:
 BLEU
 <b>
