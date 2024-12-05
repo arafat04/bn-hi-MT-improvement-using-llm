@@ -8,7 +8,7 @@ WMT21 Bengali-Hindi CC aligned data and For fine tuning 503 samples were used.
 
 **Fine Tuning Process:**
 
-In order to familiarize the model with Bengali-Hindi translation, at first instruction tuning method was used. Then the model was trained and adapted using LORA and the adapted model was saved.
+In order to familiarize the model with Bengali-Hindi translation, at first instruction tuning method was used. Then the model was fine-tuned on Bengali-Hindi parallel text and adapted using LORA and the adapted model was saved.
 
 **Evaluation:**
 BLEU was used as the evaluation metric and evaluation was applied on WMT21 Bengali-Hindi test dataset. The BLEU score was 5.88. Additionally, the model generated romanized version of Hindi translation(Ee vitarakti haarikena kaatarin samay traan aur punirnaan ke upar vyayakay ke kendra karne ke liye bhi bhariyayi thi; ye keechee arth sangshlisht raakshanashilaraa hasyakar bhav se **"bushar new orlins chukti"** bolte hain.) for this Bengali text: 
