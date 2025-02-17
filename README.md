@@ -1,6 +1,6 @@
 # bn-hi-MT-improvement-using-llm
 
-**The code and data for Llama-3.1 8b Instruct is in the folder: llama8b**
+**The data for Llama-3.1 8b Instruct is in the folder: llama8b and code for it has the commit comment specifying the model**
 
 This project tries to explore two things:
 1. Check the English concept state in the middle layer of a llm in the middle layers using **logit lens**.
